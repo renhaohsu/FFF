@@ -1,6 +1,13 @@
 var imggg = document.getElementsByTagName('img')
+var h4Click = document.getElementsByTagName('h4')
+var h3Click = document.getElementsByTagName('h3')
 
 function f(){
+	h4Click[0].style.visibility = 'hidden';
+	h3Click[0].style.visibility = 'hidden';
+	imggg[0].style.filter = 'invert(1)';
+	imggg[1].style.filter = 'invert(1)';
+	imggg[2].style.filter = 'invert(1)';
 
   var docElm = document.documentElement;
 	if (docElm.requestFullscreen) {
