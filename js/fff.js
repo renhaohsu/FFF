@@ -1,5 +1,6 @@
 var imggg = document.getElementsByTagName('img')
-var i = imggg[0].addEventListener("click", function f(){
+
+function f(){
 
   var docElm = document.documentElement;
 	if (docElm.requestFullscreen) {
@@ -14,4 +15,9 @@ var i = imggg[0].addEventListener("click", function f(){
 	else if (docElm.msRequestFullscreen) {
 	    docElm.msRequestFullscreen();
 	}
-});
+}
+
+
+var i = imggg[0].addEventListener("click", f);
+var i = imggg[1].addEventListener("click", f);
+var i = imggg[2].addEventListener("click", f);

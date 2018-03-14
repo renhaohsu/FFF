@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	font-family: 微軟正黑體,  Microsoft JhengHei;;
 }	
 .container {
 	display: -webkit-inline-flex;
@@ -13,4 +14,18 @@
 img {
 	width: 100vh;
 	height: 105vh;
+	cursor: pointer;
+}
+
+h3 {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	top: 15%;
+	color: white;
+	pointer-events: none;
+
 }
